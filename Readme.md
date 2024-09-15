@@ -11,7 +11,7 @@ A movie app built with React Native, utilizing navigation, context API for state
 
 Here’s a quick demo of the app:
 
-![App Demo](https://github.com/user-attachments/assets/631f5940-3ef6-4e73-adf4-f8aaeb4392ac)
+![Demo](https://github.com/user-attachments/assets/631f5940-3ef6-4e73-adf4-f8aaeb4392ac)
 
 ## Installation
 
@@ -25,7 +25,7 @@ To get started with this project, follow these steps:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/kaokab33/Movie-App.git
 cd your-repo-name
 npm install
 npx expo start
