@@ -6,6 +6,7 @@ A movie app built with React Native, utilizing navigation, context API for state
 
 - **Navigation**: Implemented navigation stack and drawer for seamless app navigation.
 - **State Management**: Utilized Context API and reducers for state management.
+- **Firebase Integration**: Firebase is used to store and manage movie data in real-time.
 
 ## Demo
 
