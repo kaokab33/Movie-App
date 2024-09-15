@@ -11,8 +11,7 @@ A movie app built with React Native, utilizing navigation, context API for state
 
 Here’s a quick demo of the app:
 
-![App Demo](https://github.com/kaokab33/movie-app/blob/master/Demo.mp4)
-
+![App Demo](https://github.com/user-attachments/assets/631f5940-3ef6-4e73-adf4-f8aaeb4392ac)
 
 ## Installation
 
@@ -31,3 +30,4 @@ cd your-repo-name
 npm install
 npx expo start
 
+```
