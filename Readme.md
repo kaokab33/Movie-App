@@ -11,7 +11,7 @@ A movie app built with React Native, utilizing navigation, context API for state
 
 Here’s a quick demo of the app:
 
-![Demo](https://github.com/user-attachments/assets/631f5940-3ef6-4e73-adf4-f8aaeb4392ac)
+![Demo](https://github.com/user-attachments/assets/7f407684-2e6b-4ddf-97f9-ca09e03a3e2d)
 
 ## Installation
 
@@ -20,7 +20,7 @@ To get started with this project, follow these steps:
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (v14 or higher)
-- [Expo CLI](https://docs.expo.dev/get-started/installation/) (If using Expo)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
 
 ### Clone the Repository
 

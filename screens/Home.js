@@ -3,7 +3,7 @@ import { StyleSheet, View, Text, FlatList, TextInput, ActivityIndicator } from '
 import Movie from '../components/Movie';
 import { MoviesContext } from '../contexts/moviesContextProvider';
 import { useContext } from 'react';
-
+import LottieView from 'lottie-react-native';
 export default function Home() {
     const { state } = useContext(MoviesContext);
     const [text, setText] = useState('');
@@ -30,8 +30,14 @@ export default function Home() {
     if (loading) {
         return (
             <View style={styles.container}>
-                <ActivityIndicator size="large" color="#ffffff" />
-                <Text style={styles.loadingText}>Loading movies...</Text>
+                <View style={styles.loadingContainer}>
+                    <LottieView
+                        source={require('../assets/loading.json')}
+                        autoPlay
+                        loop
+                        style={styles.loadingAnimation}
+                    />
+                </View>
             </View>
         );
     }
@@ -83,5 +89,14 @@ const styles = StyleSheet.create({
         color: 'white',
         fontSize: 18,
         marginTop: 10,
+    },
+    loadingContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    loadingAnimation: {
+        width: 150,
+        height: 150,
     },
 });
